@@ -92,7 +92,7 @@ const HomePage = () => {
                     id="firstname"
                     className={`form-control ${formData.firstname.value && (formData.firstname.valid ? "is-valid" : "is-invalid")}`}
                     onChange={(e) => handleChange("firstname", e.target.value, validateFirstname)}
-                    placeholder="Firstname"
+                    placeholder=""
                     required
                   />
                   <label htmlFor="firstname">Firstname</label>
