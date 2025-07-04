@@ -195,9 +195,9 @@ const HomePage = () => {
                 <div className="invalid-feedback"> Password must contain at least 1 lowercase, 1 uppercase, 1 digit, 1 special character, and be at least 6 characters long.</div>
                 <button
                   type="button"
-                  className="btn position-absolute end-0 top-50 translate-middle-y me-2 border-0 bg-transparent"
+                  className="btn position-absolute translate-middle-y me-2 border-0 bg-transparent"
                   onClick={() => setShowPassword(!showPassword)}
-                  style={{ zIndex: 2 }}
+                  style={{ zIndex: 2, right:'3%', top:'30px' }}
                 >
                   <i className={`bi ${showPassword ? "bi-eye-slash" : "bi-eye"}`} id="toggleIcon"></i>
                 </button>
